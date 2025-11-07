@@ -1,0 +1,23 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.product button {
+  background: #212529;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.cart-items p {
+  margin: 5px 0;
+}
