@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><title>Register</title>
+<script>
+function check(){
+ let n=name.value.trim(),e=email.value.trim(),p=pass.value.trim();
+ if(n==""){alert("Enter Name");return false;}
+ if(!e.includes("@")||!e.includes(".")){alert("Invalid Email");return false;}
+ if(p.length<6){alert("Password ≥ 6 chars");return false;}
+ alert("Success");return true;
+}
+</script></head>
+<body>
+<form onsubmit="return check()">
+<input id="name" placeholder="Name"><br>
+<input id="email" placeholder="Email"><br>
+<input id="pass" type="password" placeholder="Password"><br>
+<button>Register</button>
+</form></body></html>
